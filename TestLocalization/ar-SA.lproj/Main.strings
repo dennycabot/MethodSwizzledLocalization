@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Adil"; ObjectID = "7gV-yp-6Dz"; */
+"7gV-yp-6Dz.text" = "معرض";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "FMR-V2-KBv"; */
+"FMR-V2-KBv.text" = "لغة";
+
+/* Class = "UIButton"; normalTitle = "Switch Language"; ObjectID = "ahv-Po-2Fv"; */
+"ahv-Po-2Fv.normalTitle" = "تبديل اللغة";
+
+/* Class = "UILabel"; text = "Happy Birthday!"; ObjectID = "elI-OA-jqI"; */
+"elI-OA-jqI.text" = "عيد مولد سعيد!";

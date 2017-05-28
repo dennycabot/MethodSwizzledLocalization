@@ -1,0 +1,19 @@
+
+/* Class = "UILabel"; text = "Cabot"; ObjectID = "7gV-yp-6Dz"; */
+"7gV-yp-6Dz.text" = "كابوت";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "FMR-V2-KBv"; */
+"FMR-V2-KBv.text" = "لغة";
+
+/* Class = "UITextField"; text = "To Test Text Field's Language Switching!"; ObjectID = "I0s-e1-KSs"; */
+"I0s-e1-KSs.text" = "لاختبار لغة لغة النص الاختباري!";
+
+/* Class = "UILabel"; text = "Localization"; ObjectID = "K6B-gD-tc9"; */
+"K6B-gD-tc9.text" = "الموقع";
+
+/* Class = "UIButton"; normalTitle = "Switch Language"; ObjectID = "ahv-Po-2Fv"; */
+"ahv-Po-2Fv.normalTitle" = "تبديل اللغة";
+
+/* Class = "UILabel"; text = "Successfully Localized!"; ObjectID = "elI-OA-jqI"; */
+"elI-OA-jqI.text" = "تم الترجمة بنجاح!";
+
