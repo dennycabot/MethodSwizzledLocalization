@@ -1,0 +1,7 @@
+app_identifier "denny.mathew.TestLocalization" # The bundle identifier of your app
+apple_id "cto@cabotsolutions.com" # Your Apple email address
+
+team_id "DBD2DBFKN6" # Developer Portal Team ID
+
+# you can even provide different app identifiers, Apple IDs and team names per lane:
+# More information: https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Appfile.md

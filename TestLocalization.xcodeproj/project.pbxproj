@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF65EE461EDB030B001575FA /* TestLocalizationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF65EE451EDB030B001575FA /* TestLocalizationUITests.swift */; };
+		EF65EE551EDB03E6001575FA /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF65EE531EDB03E6001575FA /* SnapshotHelper.swift */; };
 		EF8A82DC1EC9D99B004CE952 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A82DB1EC9D99B004CE952 /* AppDelegate.swift */; };
 		EF8A82DE1EC9D99B004CE952 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8A82DD1EC9D99B004CE952 /* ViewController.swift */; };
 		EF8A82E11EC9D99B004CE952 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8A82DF1EC9D99B004CE952 /* Main.storyboard */; };
@@ -16,7 +18,21 @@
 		EF8F93611ECAEF6700791410 /* L102Localizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8F93601ECAEF6700791410 /* L102Localizer.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		EF65EE481EDB030B001575FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF8A82D01EC9D99B004CE952 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF8A82D71EC9D99B004CE952;
+			remoteInfo = TestLocalization;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		EF65EE431EDB030B001575FA /* TestLocalizationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestLocalizationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF65EE451EDB030B001575FA /* TestLocalizationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLocalizationUITests.swift; sourceTree = "<group>"; };
+		EF65EE471EDB030B001575FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF65EE531EDB03E6001575FA /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
 		EF8A82D81EC9D99B004CE952 /* TestLocalization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestLocalization.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8A82DB1EC9D99B004CE952 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF8A82DD1EC9D99B004CE952 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,6 +49,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EF65EE401EDB030B001575FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EF8A82D51EC9D99B004CE952 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -43,10 +66,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF65EE441EDB030B001575FA /* TestLocalizationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF65EE451EDB030B001575FA /* TestLocalizationUITests.swift */,
+				EF65EE531EDB03E6001575FA /* SnapshotHelper.swift */,
+				EF65EE471EDB030B001575FA /* Info.plist */,
+			);
+			path = TestLocalizationUITests;
+			sourceTree = "<group>";
+		};
 		EF8A82CF1EC9D99B004CE952 = {
 			isa = PBXGroup;
 			children = (
 				EF8A82DA1EC9D99B004CE952 /* TestLocalization */,
+				EF65EE441EDB030B001575FA /* TestLocalizationUITests */,
 				EF8A82D91EC9D99B004CE952 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				EF8A82D81EC9D99B004CE952 /* TestLocalization.app */,
+				EF65EE431EDB030B001575FA /* TestLocalizationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +112,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		EF65EE421EDB030B001575FA /* TestLocalizationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF65EE4C1EDB030B001575FA /* Build configuration list for PBXNativeTarget "TestLocalizationUITests" */;
+			buildPhases = (
+				EF65EE3F1EDB030B001575FA /* Sources */,
+				EF65EE401EDB030B001575FA /* Frameworks */,
+				EF65EE411EDB030B001575FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF65EE491EDB030B001575FA /* PBXTargetDependency */,
+			);
+			name = TestLocalizationUITests;
+			productName = TestLocalizationUITests;
+			productReference = EF65EE431EDB030B001575FA /* TestLocalizationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		EF8A82D71EC9D99B004CE952 /* TestLocalization */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF8A82EA1EC9D99B004CE952 /* Build configuration list for PBXNativeTarget "TestLocalization" */;
@@ -104,6 +157,12 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Denny Mathew";
 				TargetAttributes = {
+					EF65EE421EDB030B001575FA = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = DBD2DBFKN6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF8A82D71EC9D99B004CE952;
+					};
 					EF8A82D71EC9D99B004CE952 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = DBD2DBFKN6;
@@ -127,11 +186,19 @@
 			projectRoot = "";
 			targets = (
 				EF8A82D71EC9D99B004CE952 /* TestLocalization */,
+				EF65EE421EDB030B001575FA /* TestLocalizationUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		EF65EE411EDB030B001575FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EF8A82D61EC9D99B004CE952 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -145,6 +212,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EF65EE3F1EDB030B001575FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF65EE461EDB030B001575FA /* TestLocalizationUITests.swift in Sources */,
+				EF65EE551EDB03E6001575FA /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EF8A82D41EC9D99B004CE952 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -157,6 +233,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF65EE491EDB030B001575FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF8A82D71EC9D99B004CE952 /* TestLocalization */;
+			targetProxy = EF65EE481EDB030B001575FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EF8A82DF1EC9D99B004CE952 /* Main.storyboard */ = {
@@ -182,6 +266,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		EF65EE4A1EDB030B001575FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DBD2DBFKN6;
+				INFOPLIST_FILE = TestLocalizationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = denny.mathew.TestLocalizationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TestLocalization;
+			};
+			name = Debug;
+		};
+		EF65EE4B1EDB030B001575FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DBD2DBFKN6;
+				INFOPLIST_FILE = TestLocalizationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = denny.mathew.TestLocalizationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TestLocalization;
+			};
+			name = Release;
+		};
 		EF8A82E81EC9D99B004CE952 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -287,6 +397,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = denny.mathew.TestLocalization;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -300,12 +411,21 @@
 				PRODUCT_BUNDLE_IDENTIFIER = denny.mathew.TestLocalization;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EF65EE4C1EDB030B001575FA /* Build configuration list for PBXNativeTarget "TestLocalizationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF65EE4A1EDB030B001575FA /* Debug */,
+				EF65EE4B1EDB030B001575FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		EF8A82D31EC9D99B004CE952 /* Build configuration list for PBXProject "TestLocalization" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
